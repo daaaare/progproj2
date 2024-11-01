@@ -20,19 +20,19 @@ Addition (ADD)
 ADDS 0x00AAA5555 0x00555AAAA results in 0x0FFFFFFF
 Adds 0x00AAA5555 and 0x00555AAAA.
 ADD 0xFFFFFFFF 0x1 results in 0x00000000 (overflow occurs in 32-bit arithmetic).
-Bitwise AND (AND)
 
+Bitwise AND (AND)
 ANDS 0x00AAA5555 0x00555AAAA results in 0x00000000
 Performs bitwise AND on the two operands.
 AND 0xFFFFFFFF 0x1 results in 0x00000001
-Arithmetic Shift Right (ASR)
 
+Arithmetic Shift Right (ASR)
 ASRS 0x00AAA5555 1 results in 0x05552AAA
 Shifts 0x00AAA5555 right by 1 bit, preserving the sign bit.
 ASR 0xFFFFFFFF 2 results in 0xFFFFFFFF
 Shifting a negative number (in two's complement) retains 0xFFFFFFFF.
-Logical Shift Right (LSR)
 
+Logical Shift Right (LSR)
 LSRS 0x00AAA5555 1 results in 0x05552AAA
 Shifts 0x00AAA5555 right by 1 bit, filling with zeros.
 LSR 0xFFFFFFFF 2 results in 0x3FFFFFFF
@@ -41,21 +41,21 @@ Logical Shift Left (LSL)
 LSL 0x00AAA5555 1 results in 0x1554AAAA
 Shifts 0x00AAA5555 left by 1 bit.
 LSLS 0xFFFFFFFF 2 results in 0xFFFFFFFC
-Bitwise NOT (NOT)
 
+Bitwise NOT (NOT)
 NOT 0x00AAA5555 results in 0xF555AAAA
 Inverts all bits of the operand.
 NOTS 0xFFFFFFFF results in 0x00000000
-Bitwise OR (ORR)
 
+Bitwise OR (ORR)
 ORR 0x00AAA5555 0x00555AAAA results in 0x0FFFFFFF
 Performs bitwise OR on the two operands.
 Subtraction (SUB)
 
 SUB 0x00AAA5555 0x00555AAAA results in 0x0554AAAB
 Subtracts the second operand from the first.
-Bitwise XOR (XOR)
 
+Bitwise XOR (XOR)
 XOR 0x00AAA5555 0x00555AAAA results in 0x0FFFFFFF
 Performs bitwise XOR on the two operands.
 
